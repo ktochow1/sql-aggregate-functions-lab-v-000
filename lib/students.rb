@@ -19,4 +19,5 @@ end
 def average_gpa_for_9th_grade
   "SELECT COUNT(grade) from (students) WHERE grade = 9;"
   "SELECT AVG(gpa) FROM students;"
+  SELECT COUNT(owner_id) FROM cats WHERE owner_id = 1;
 end
